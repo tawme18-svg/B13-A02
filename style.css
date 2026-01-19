@@ -7,8 +7,9 @@
   font-style: normal;
 }
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar{
@@ -67,7 +68,7 @@
     color: white;
     height: 44px;
     width: 135px;
-   padding: 16px 0;
+   padding: 16px ;
     border: none;
     font-size: 16px;
     font-weight:bold;
@@ -79,10 +80,14 @@
     margin-right: 200px;
 }
 
-.subbtn:hover{
+.subbtn:hover {
      background: linear-gradient(1000deg, #1900ff, #db0000);
 
         color: #ffffff;
+}
+.newbtn:hover{
+    background-color: #ffea2c;
+
 }
 
 #arrow-icon{
@@ -91,7 +96,57 @@
     
 }
 .right{
-    padding-top: 16px;
+    padding-top: 20px;
+}
+/* cover 1  */
+.cover
+{   width: 100%;
+    position: relative;
+}
+.wavebg{
+    height: 760px;
+    width: 1600px;
+    justify-content: center;
+    position: absolute;
+
+}
+.circlebg{
+position: absolute;
+  top: 80px;
+  left: 44%;
+  z-index: 1;
+
 }
 
-/* cover 1  */
+.micbg{
+    position: absolute;
+    top: 150px;
+    right: 560px;
+    z-index: 2;
+
+
+}
+.newbtn{
+    position: absolute;
+      z-index: 3;
+      top: 110px;
+    right: 32%;
+}
+.newbtn button{
+ 
+background-color: #00FF88; 
+
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  height: 38px;
+  width:75px;
+  border-radius: 25px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+ font-weight:bolder;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
