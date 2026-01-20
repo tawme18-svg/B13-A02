@@ -298,11 +298,7 @@ background-color: #00FF88;
     text-align: center;
 }
 
-.up, .down{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
+
 
 
 
@@ -564,8 +560,8 @@ font-size: 12px;
     display: grid;
    
     grid-template-columns: repeat(1,1fr);
-
-    gap:2px;
+    
+    gap:20px;
     
     grid-template-areas: 
     "premium "
@@ -575,6 +571,7 @@ font-size: 12px;
     "rich";
     
     justify-items: center;
+    padding:10px;
  
 
     }
@@ -607,6 +604,14 @@ font-size: 12px;
     opacity: 60%;
     }
 
+.fea-card{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    padding: 10px  ;
+    gap: 30px;
+}
 
 
     
@@ -621,7 +626,7 @@ font-size: 12px;
 }
 .stats{
     display: flex;
-    flex-direction:column;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
 }
@@ -635,12 +640,12 @@ font-size: 12px;
     padding:10px;
     background-color: #1A0B2E;
     
-
+   }
 
 
    .fea-epi{
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     margin-bottom:10px ;
@@ -649,17 +654,69 @@ font-size: 12px;
     
 
 }
-
-.fea-card{
-    display: flex;
+.meet{
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding: 20px  ;
-    gap: 30px;
+    padding: 20px;
 }
 
 
 
+.hostimg{
+    width: 150px;
+    height: 150px;
+    
+ }
 
+ .social-links img {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40%;
+    margin-top: 4px;
+    
+
+
+}
+.icard h3{
+    font-size: 24px;
+}
+
+.icard p{
+    font-size: 15px;
+}
+
+}
+
+icard{
+    margin: auto;
+    justify-content: center;
+    
+}
+
+ .techa{
+    color: white;
+    font-size:40px;
+    font-weight: bold;
+}
+.waves{
+     background: linear-gradient( #ff00d4, #9b00ff, #ffea2c ); 
+    background-clip: text;
+    color: transparent;  
+     font-size: 40px;
+    font-weight: bolder;
+}
+
+.footer-links ul{
+    
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+    
 
 }
