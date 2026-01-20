@@ -688,7 +688,7 @@ font-size: 12px;
     font-size: 15px;
 }
 
-}
+
 
 icard{
     margin: auto;
@@ -718,5 +718,19 @@ icard{
     gap: 40px;
     
     
+}
+
+.middle{
+    display: none;
+}
+
+.right{
+    display: none;
+}
+
+
+#hm
+{
+   
 
 }
