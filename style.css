@@ -14,7 +14,7 @@
 
 .navbar{
     background-color:#1A0B2E ;
-    width: 100%;
+    width: auto;
     height: 92px;
     padding: 16px 0 ;
     justify-content: space-between;
@@ -148,5 +148,81 @@ background-color: #00FF88;
  display: flex;
  justify-content: center;
  align-items: center;
+
+}
+.cover-text{
+    position: absolute;
+    z-index: 4;
+    top: 434px;
+    right:350px;
+    margin-top: 40px;
+    
+}
+
+.cover-text h3{
+    color: white;
+    font-size:60px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
+.cover-text p{
+    font-size:16px ;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.two-btn{ 
+    
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    right: 560px;
+    display: flex;
+    top: 624px;
+    right:420px;
+
+}
+
+.sub-btn{
+     background: transparent;
+    border-radius: 24px;
+    color: #00FF88;
+    height: 44px;
+    width: 147px;
+   padding: 3px ;
+    border: #00FF88 solid 1px;
+    font-size: 16px;
+    
+    cursor: pointer;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    
+    
+    
+
+}
+.lis-btn{
+     background: linear-gradient(90deg, #ff00d4, #9b00ff, #ff7d00);
+    border-radius: 24px;
+    color: white;
+    height: 44px;
+    width: 220px;
+    display: flex;
+    padding: 22px;
+    border: none;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 16px;
+    margin-right: 16px; 
 
 }
