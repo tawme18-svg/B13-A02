@@ -256,6 +256,16 @@ background-color: #00FF88;
     opacity: 80%;
 }
 
+.horizontal-line {
+    border: none;                  
+    height: 2px;   
+    opacity: 10%;               
+    width: 100%;                   
+    margin: 50px 0;    
+    display: block;
+    background-color: #ffffff;         
+}
+
 .stats{
     display: flex;
     
@@ -352,4 +362,157 @@ font-size: 16px;
     opacity: 60%;
     }
 
+   .featured{
+    height: auto;
+    width: 100%;
+    padding:120px;
+    background-color: #1A0B2E;
+    
+
+
+
+   .fea-epi{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:40px ;
+    border-radius: 40px;
+    
+    
+
+}
+
+.fea-card{
+    display: flex;
+    justify-content: center;
+    padding: 200px  ;
+    gap: 30px;
+        
+}
+    
    
+}
+.dur{
+    color: #00FF88;
+    font-size: 16px bold;
+
+}
+
+.para{
+    width: 380px;
+    height: 226px;
+    background-color: #250D44;
+    padding:20px;
+    border-radius: 20px;
+}
+ .icard h3{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+    
+    
+ }
+ .icard p{ color: white;
+    font-size: 16px;
+    opacity: 60%;
+    
+
+ }
+ 
+
+ .meet{
+
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#351165 ;
+    padding: 30px;
+    border-radius: 30px;
+    
+ }
+ .hostimg{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius:50%;
+ }
+
+ .social-links img {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40%;
+    margin-top: 4px;
+    
+ }
+ .wavefbg{
+    position:absolute;
+
+ }
+ .logos{
+    position: relative ;
+    font-size: 150px;
+    top: 80px;
+    left: 44%;
+ }
+ .techa{
+    color: white;
+    font-size:80px;
+    font-weight: bold;
+}
+.waves{
+     background: linear-gradient( #ff00d4, #9b00ff, #ffea2c ); 
+    background-clip: text;
+    color: transparent;  
+     font-size: 80px;
+    font-weight: bolder;
+}
+
+.footer-links{
+    position: relative ;
+   
+    top: 60px;
+    left: 8%;
+    justify-content: center;
+    gap: 20px;
+    padding:20px 0;
+    display: flex;
+  
+}
+
+.footer-links ul{
+    
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+    
+
+}
+
+.footer-links a{
+    color: white; 
+    text-decoration: none;
+    opacity: 60%;
+    
+    display: flex;
+}
+.footer-copy{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    padding: 30px 30px;
+   justify-content: center;
+   left: 42%;
+   opacity: 60%;
+   
+    
+}
