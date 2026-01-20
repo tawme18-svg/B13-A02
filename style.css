@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 
+
 .navbar{
     background-color:#1A0B2E ;
     width: auto;
@@ -291,19 +292,31 @@ background-color: #00FF88;
 }
 
 .stats{
-    display: flex;
     
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
+
+.up, .down{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
 .stats h4{
     color: #00FF88;
     font-size: 48px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    align-items: center;
 
 
 }
 .statq {
 
-font-size: 16px;
+font-size: 12px;
 }
 
 .rc-span{
@@ -362,8 +375,7 @@ font-size: 16px;
     .exclu   { grid-area: exclu; }
     .rich    { grid-area: rich; }
 
-    .divcard{
-        background-color: #351165;
+     .divcard  {  background-color: #351165;
         border-radius: 40px;
         width: 100%;
         padding: 40px;
@@ -539,4 +551,115 @@ font-size: 16px;
    opacity: 60%;
    
     
+}
+
+.hide{display: none;}
+
+@media screen and (max-width:576px) {
+    .rc-span h3{
+        font-size: 32px;
+    }
+    .rc-span2{  
+    
+    display: grid;
+   
+    grid-template-columns: repeat(1,1fr);
+
+    gap:2px;
+    
+    grid-template-areas: 
+    "premium "
+    "mobile"
+    "global"
+    "exclu"
+    "rich";
+    
+    justify-items: center;
+ 
+
+    }
+
+
+ .divcard  {  background-color: #351165;
+        border-radius: 10px;
+        width:100%;
+        height: auto;
+        padding: 10px;
+        
+   
+       
+    }
+
+
+    .divcard h3{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top:5px;
+        
+        
+    }
+
+    .divcard p{
+        color: white;
+    font-size: 16px;
+    opacity: 60%;
+    }
+
+
+
+    
+
+.stats h4{
+    color: #00FF88;
+    font-size: 35px;
+    padding: 30px;
+    margin-bottom: 15px;
+
+
+}
+.stats{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+   .featured{
+    height: auto;
+    width: 100%;
+    padding:10px;
+    background-color: #1A0B2E;
+    
+
+
+
+   .fea-epi{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:10px ;
+    border-radius: 10px;
+    
+    
+
+}
+
+.fea-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px  ;
+    gap: 30px;
+}
+
+
+
+
+
 }
