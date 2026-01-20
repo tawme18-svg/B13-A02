@@ -23,6 +23,9 @@
     
     
 }
+
+
+
 .tech{
     color: white;
     font-size: 48px;
@@ -117,13 +120,24 @@ position: absolute;
   
 
 }
+.circlebg:hover img{
+    transform: scale(1.2);
+    transition: ease-in 0.3s;
+    
 
+}
+
+.micbg:hover img {
+
+    
+    transform: rotate(15deg) scale(1.1);
+   
+
+}
 .micbg{
     position: absolute;
     top: 150px;
     right: 560px;
-    
-
 
 }
 .newbtn{
@@ -203,11 +217,15 @@ background-color: #00FF88;
     align-items: center;
     margin-bottom: 16px;
     margin-right: 16px;
-    
-    
-    
-
+ 
 }
+
+
+.sub-btn:hover{
+    background: linear-gradient(90deg, #0cd305, #ff0b30, #06ecb2);
+   
+}
+
 .lis-btn{
      background: linear-gradient(90deg, #ff00d4, #9b00ff, #ff7d00);
     border-radius: 24px;
@@ -224,7 +242,13 @@ background-color: #00FF88;
     align-items: center;
      margin-bottom: 16px;
     margin-right: 16px; 
+}
 
+    .lis-btn:hover{background: linear-gradient(90deg, #1e13ee, #f50606, #7da3eb);
+    border-radius: 24px;
+    color: white;
+
+    
 }
 
 .section-3 {
